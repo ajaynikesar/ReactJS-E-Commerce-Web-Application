@@ -1,0 +1,59 @@
+.header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+}
+.header_logo{
+    height: 75px;
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 2px;
+}
+.header_optionLineTwo{
+    font-size: 17px;
+    font-weight: 500;
+}
+.header_optionLineTwo Link a{
+    text-decoration: none;
+}
+.header_optionLineTwo:hover{
+    background-color: rgb(203, 206, 241);
+    border-radius: 2px;
+    border: 2px solid rgb(203, 206, 241);
+    color: black;
+}
+.header_optionUser{
+    height: 15px;
+    width: 15px;
+    margin-left: 700px;
+    margin-right: 20px;
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_optionBasket{
+    height: 15px;
+    width: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.subcategory_list_items li a:hover{
+    color: #131921;
+}
